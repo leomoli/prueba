@@ -1,18 +1,23 @@
 body {
-    color: rgb(34, 33, 33);
-    text-align: center;
-    font-family: Arial;
-    font-style: 15px;
+    display: flex;
+    justify-content: center;
     margin: 0px;
     padding: 0px;
 }
 
 .container {
-    width: 20%;
-    padding: 10px;
+    width: 400px;
+    padding: 0;
     text-align: left;
     border: 1px solid #ddd;
-    margin: 0 auto;
+    margin: 0;
+}
+
+.post {
+    font-family: Arial;
+    font-size: 15px;
+    color: black;
+    padding: 12px;
 }
 
 .post h1 {
